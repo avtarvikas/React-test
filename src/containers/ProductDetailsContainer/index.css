@@ -1,0 +1,16 @@
+.product-detail-container {
+  width: 25%;
+  position: fixed;
+}
+
+.detail-container-span {
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: #000;
+}
+.detail-editor {
+  text-decoration: underline;
+}
+.detail-designer {
+  text-decoration: underline;
+}
