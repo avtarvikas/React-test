@@ -86,15 +86,15 @@
   .shopping-details-container {
     display: flex;
     width: 100%;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
+    position: static;
   }
   .shopping-details-container {
     padding-left: 0;
   }
-  .tab-container {
-    width: 100%;
-    padding-top: 2rem;
+  .product-detail-container{
+    display: none;
   }
 }
 @media only screen and (min-width: 767px) {

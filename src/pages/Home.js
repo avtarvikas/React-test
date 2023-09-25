@@ -11,10 +11,12 @@ import HeartIcon from "../assets/heart.png";
 import "./home.css";
 import ShoppingDetails from "../components/shopping-details/ShoppingDetails";
 import ProductDetailsContainer from "../containers/ProductDetailsContainer";
+import Carousel from "../components/carousel/Carousel";
+const imageList = [Image1, Image3, Image2, Image4, Image5];
 
 const Home = () => {
   return (
-    <div style={{ position: "relative" }}>
+    <div>
       <Header />
       <div className="home-container">
         <ProductDetailsContainer />
@@ -32,6 +34,7 @@ const Home = () => {
           <img src={HeartIcon} className="home-heart" />
         </div>
         <ShoppingDetails />
+        <Carousel images={imageList} />
       </div>
       <div className="footer-container">
         <div className="footer-name-wrap">
